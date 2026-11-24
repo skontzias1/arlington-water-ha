@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Sign in with your myutilities.arlingtonva.us login.",
+        "data": {"username": "Email", "password": "Password"}
+      },
+      "reauth_confirm": {
+        "description": "The portal rejected the saved password.",
+        "data": {"password": "Password"}
+      }
+    },
+    "error": {
+      "invalid_auth": "Sign-in rejected",
+      "cannot_connect": "Could not reach the portal",
+      "unsupported": "This account's pages are not supported (see the log)",
+      "unknown": "Unexpected error (see the log)"
+    },
+    "abort": {
+      "already_configured": "Already set up",
+      "single_instance_allowed": "Already set up",
+      "reauth_successful": "Password updated"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "description": "Used only for the rate and the estimate. All optional.",
+        "data": {
+          "meters": "Water meters that together cover the whole property",
+          "sewer_winter_thousand_gallons": "Winter sewer use (thousand gallons per quarter)",
+          "include_refuse": "Include trash and recycling"
+        },
+        "data_description": {
+          "sewer_winter_thousand_gallons": "From your bill. Leave empty if you have none yet; sewer is then estimated on all use."
+        }
+      }
+    }
+  }
+}

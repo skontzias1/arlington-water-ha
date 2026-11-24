@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Arlington Water bills in Home Assistant, unofficial">
+  <defs><linearGradient id="bg" x1="0" x2="1" y2="1"><stop stop-color="#0b3038"/><stop offset="1" stop-color="#13606b"/></linearGradient>
+  <linearGradient id="f" x1="0" x2="0" y1="1" y2="0"><stop stop-color="#0097a7"/><stop offset="1" stop-color="#7ff0ee"/></linearGradient></defs>
+  <rect width="1200" height="260" rx="20" fill="url(#bg)"/>
+  <path d="M142 34c30 42 56 74 56 112a56 56 0 0 1-112 0c0-38 26-70 56-112z" fill="url(#f)"/>
+  <path d="M112 150a32 32 0 0 0 26 34" fill="none" stroke="#e8ffff" stroke-width="9" stroke-linecap="round"/>
+  <g font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" fill="#fff">
+    <text x="240" y="112" font-size="50" font-weight="700">Arlington Water bills</text>
+    <text x="240" y="164" font-size="32" fill="#bfeef2">Arlington County, Virginia, in Home Assistant</text>
+    <text x="240" y="208" font-size="20" fill="#8fc3c9">Unofficial community integration</text>
+  </g>
+  <g fill="#7ff0ee"><rect x="985" y="168" width="22" height="32" rx="5"/><rect x="1017" y="140" width="22" height="60" rx="5"/><rect x="1049" y="96" width="22" height="104" rx="5"/><rect x="1081" y="124" width="22" height="76" rx="5"/><rect x="1113" y="160" width="22" height="40" rx="5"/></g>
+</svg>

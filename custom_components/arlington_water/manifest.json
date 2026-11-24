@@ -1,0 +1,14 @@
+{
+  "domain": "arlington_water",
+  "name": "Arlington Water",
+  "codeowners": ["@skontzias1"],
+  "config_flow": true,
+  "dependencies": ["recorder"],
+  "documentation": "https://github.com/skontzias1/arlington-water-ha",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/skontzias1/arlington-water-ha/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.2.0"
+}
